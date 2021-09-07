@@ -12,7 +12,11 @@ const showUser = () => {
     })
 }
 
-
+const randomUser = document.getElementById("newRandomUser");
+randomUser.addEventListener("click", function() {
+   showUser();
+}
+)
 
 
 getRandomUser();
